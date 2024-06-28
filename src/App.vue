@@ -1,9 +1,10 @@
 <template>
+
   <div>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://sladesylvain.github.io/Proyecto-Presentacion/">
           <img src="./assets/slade.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -11,21 +12,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="https://sladesylvain.github.io/SladeSylvain/">CV</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/SladeSylvain" target="_blank">GitHub</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:alexandercarvajal@outlook.fr">Correo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="https://www.linkedin.com/in/alexander-carvajal-pizarro-1b4805237/" target="_blank">LinkedIn</a>
-            </li>
-          </ul>
+
         </div>
       </div>
     </nav>
@@ -34,8 +21,9 @@
     <div class="container mt-4">
       <h1 class="text-center">Software Engineer / Programador Web</h1>
       <p class="text-center">Programador Full Stack</p>
-      <img src="./assets/2.jpg" class="rounded-circle img-thumbnail img-fluid mx-auto d-block" style="width: 200px;"
+      <img src="./assets/2.jpg" class="rounded-circle img-thumbnail img-fluid mx-auto d-block" style="width: 250px;"
         alt="Imagen redondeada">
+        <br><br><br>
       <div class="card border-0 rounded-3"
         style="background-color: #f8f9fa; background-image: linear-gradient(45deg, #f8f9fa 25%, #e9ecef 100%); border-color: transparent;">
         <div class="card-body text-center">
@@ -52,40 +40,10 @@
       </div>
     </div>
 
-    <!-- Líneas de conocimientos -->
-    <div class="container mt-4">
-      <div class="progress mb-2" role="progressbar" aria-label="Default striped example" aria-valuenow="75"
-        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
-        <div class="progress-bar progress-bar-striped" style="width: 75%; background-color: #87CEEB; color: black;">
-          CSS
-        </div>
-      </div>
-      <div class="progress mb-2" role="progressbar" aria-label="Success striped example" aria-valuenow="75"
-        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
-        <div class="progress-bar progress-bar-striped bg-danger" style="width: 80%; background-color: #FF6347;">
-          HTML
-        </div>
-      </div>
-      <div class="progress mb-2" role="progressbar" aria-label="Warning striped example" aria-valuenow="65"
-        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
-        <div class="progress-bar progress-bar-striped bg-success" style="width: 65%; background-color: #4CAF50; color: white;">
-          Vue
-        </div>
-      </div>
-      <div class="progress mb-2" role="progressbar" aria-label="Warning striped example" aria-valuenow="60"
-        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
-        <div class="progress-bar progress-bar-striped bg-info" style="width: 60%; background-color: #1E90FF; color: white;">
-          Python
-        </div>
-      </div>
-      <div class="progress mb-3" role="progressbar" aria-label="Info striped example" aria-valuenow="50"
-        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
-        <div class="progress-bar progress-bar-striped bg-warning" style="width: 50%; background-color: #FFD700; color: black;">
-          JavaScript
-        </div>
-      </div>
-    </div>
+
+
 <br><br><br><br><br><br>
+
     <!-- Frontend, Backend, Game Dev -->
     <div class="container mt-4">
       <div class="row justify-content-center">
@@ -132,6 +90,42 @@
         </div>
       </div>
     </div>
+
+
+    <!-- Líneas de conocimientos -->
+
+    <div class="container mt-4">
+      <div class="progress mb-2" role="progressbar" aria-label="Default striped example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
+        <div class="progress-bar progress-bar-striped" style="width: 75%; background-color: #87CEEB; color: black;">
+          CSS
+        </div>
+      </div>
+      <div class="progress mb-2" role="progressbar" aria-label="Success striped example" aria-valuenow="75"
+        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
+        <div class="progress-bar progress-bar-striped bg-danger" style="width: 80%; background-color: #FF6347;">
+          HTML
+        </div>
+      </div>
+      <div class="progress mb-2" role="progressbar" aria-label="Warning striped example" aria-valuenow="65"
+        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 65%; background-color: #4CAF50; color: white;">
+          Vue
+        </div>
+      </div>
+      <div class="progress mb-2" role="progressbar" aria-label="Warning striped example" aria-valuenow="60"
+        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
+        <div class="progress-bar progress-bar-striped bg-info" style="width: 60%; background-color: #1E90FF; color: white;">
+          Python
+        </div>
+      </div>
+      <div class="progress mb-3" role="progressbar" aria-label="Info striped example" aria-valuenow="50"
+        aria-valuemin="0" aria-valuemax="100" style="margin: 0 auto; max-width: 500px;">
+        <div class="progress-bar progress-bar-striped bg-warning" style="width: 50%; background-color: #FFD700; color: black;">
+          JavaScript
+        </div>
+      </div>
+    </div>
 <br><br><br><br><br><br>
 
     <!-- Proyectos -->
@@ -141,6 +135,7 @@
       <p class="text-center">Algunos de mis últimos trabajos...</p>
       <br><br><br>
       <div class="row row-cols-1 row-cols-md-4 g-4">
+
         <!-- Proyecto 1 -->
         <div class="col mb-3">
           <div class="card project-card rounded shadow-sm h-100">
@@ -223,6 +218,17 @@
     <!-- Pie de página -->
     <footer class="bg-light text-center text-lg-start mt-4">
       <div class="text-center p-5">
+          <div class="container mt-5 text-center">
+        <a href="https://github.com/SladeSylvain" target="_blank" class="btn btn-outline-dark m-2">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:alexcarvajal@outlook.fr" target="_blank" class="btn btn-outline-primary m-2">
+            <i class="bi bi-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-carvajal-pizarro-1b4805237/" target="_blank" class="btn btn-outline-info m-2">
+            <i class="bi bi-linkedin"></i>
+        </a>
+    </div>
         © 2024 Alexander Luis Carvajal Pizarro. Todos los derechos reservados.
         <br>
         <a href="mailto:alexcarvajal@outlook.fr">alexcarvajal@outlook.fr</a>
@@ -236,12 +242,17 @@
 export default {
   name: 'App',
 };
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 </script>
 
 <style scoped>
+
+
+
 .slide-image {
-  height: 400px; /* Ajusta la altura al 30% del viewport height */
-  object-fit: cover; /* Ajusta la imagen para cubrir el área definida */
+  height: 400px; 
+  object-fit: cover; 
 }
 
 .card-body {
@@ -249,8 +260,8 @@ export default {
 }
 
 .square-img {
-  height: 250px; /* Altura fija para mantener la forma cuadrada */
-  object-fit: cover; /* Para cubrir el área del contenedor manteniendo la relación de aspecto */
+  height: 250px; 
+  object-fit: cover; 
 }
 
 .project-card {
@@ -264,13 +275,27 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.5); /* Fondo oscuro */
-  color: #fff; /* Texto blanco */
-  opacity: 0; /* Inicialmente invisible */
-  transition: opacity 0.3s ease; /* Transición suave */
+  background-color: rgba(255, 255, 255, 0.5); 
+  color: #fff; 
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
 
 .project-card:hover .project-info {
-  opacity: 1; /* Mostrar al pasar el ratón */
+  opacity: 1; 
 }
+
+.btn-custom {
+      background-color: #6f2bf2;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    .btn-custom:hover {
+      background-color: #5c24c2;
+      color: white;
+    }
 </style>
