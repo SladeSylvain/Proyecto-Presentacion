@@ -12,5 +12,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/Proyecto-Presentacion/', // Reemplaza 'proyecto-final' con el nombre de tu repositorio en GitHub
+  base: '/Proyecto-Presentacion/', // Reemplaza 'Proyecto-Presentacion' con el nombre de tu repositorio en GitHub
 });
